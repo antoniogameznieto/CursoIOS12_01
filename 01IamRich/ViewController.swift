@@ -37,17 +37,17 @@ class ViewController: UIViewController {
         """, preferredStyle: .actionSheet) // Definimos la alerta .actionSheet o .default
         
         let action = UIAlertAction(title: "Aceptar", style: .default) { _ in
-            print("He pulsado el botón Aceptar")
+            print("He pulsado el botón de Aceptar")
         }
         controller.addAction(action) // añadimos la accion anterior a la alerta
         
         let action2 = UIAlertAction(title: "Borrar", style: .destructive) { _ in
-            print("He pulsado el botón Borrar")
+            print("He pulsado el botón de Borrar")
         }
         controller.addAction(action2)
         
         let action3 = UIAlertAction(title: "Cancelar", style: .cancel) { (_) in
-            print("He pulsado el botón Cancelar")
+            print("He pulsado el botón de Cancelar")
         }
         controller.addAction(action3)
         
